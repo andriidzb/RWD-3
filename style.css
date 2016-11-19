@@ -1,0 +1,89 @@
+/*Global styles and mobile styles*/
+
+.main {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+}
+
+.green, .red, .orange {
+	display: inline-block;	
+}
+
+.header {
+	background: #3fb4ff;
+	width: 92%;
+	height: 80px;
+	margin: 15px 4% 10px 4%;
+}
+
+.green {
+	background: #009245;
+	width: 92%;
+	height: 80px;
+	margin: 5px 4% 10px 4%;
+}
+
+.red {
+	background: #d41440;
+	width: 92%;
+	height: 330px;
+	margin: 5px 4% 10px 4%;
+}
+
+.orange {
+	background: #f1861e;
+}
+
+/*Styles for tablets*/
+
+@media (min-width: 768px) {
+	.header {
+		height: 60px;
+		margin: 20px 4% 0px 4%;
+	}
+
+	.green {
+		height: 150px;
+		margin: 20px 4% 0px 4%;
+	}
+
+	.red {
+		width: 49%;
+		height: 720px;
+		margin: 20px 1% 20px 4%;
+	}
+	.orange {
+		width: 40.4%;
+		height: 720px;
+		margin: 20px 4% 20px 1%;
+	}
+}
+
+/*Styles for desktop*/
+
+@media (min-width: 992px) {
+	.header {
+		width: 96%;
+		height: 80px;
+		margin: 20px 2% 0px 2%;
+	}
+
+	.green {
+		width: 20%;
+		height: 600px;
+		margin: 20px 0px 20px 2%;
+	}
+
+	.red {
+		width: 58%;
+		height: 600px;
+		margin: 20px 1% 20px 1%;
+	}
+
+	.orange {
+		width: 15.4%;
+		height: 600px;
+		margin: 20px 0px 20px 0px;
+	}
+}
